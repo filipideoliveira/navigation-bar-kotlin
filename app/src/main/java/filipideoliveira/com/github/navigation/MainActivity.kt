@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import filipideoliveira.com.github.navigation.screens.LoginScreen
 import filipideoliveira.com.github.navigation.ui.theme.NavigationTheme
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
