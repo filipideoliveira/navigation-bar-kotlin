@@ -1,4 +1,4 @@
-package filipideoliveira.com.github.navigation.screens
+    package filipideoliveira.com.github.navigation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -42,7 +42,7 @@ fun MenuScreen(modifier: Modifier = Modifier, navController: NavController) {
                 .align(Alignment.Center)
         ) {
             Button(
-                onClick = { navController.navigate("perfil") },
+                onClick = { navController.navigate("perfil/Fulano de Tal/27") },
                 colors = ButtonDefaults.buttonColors(Color.White),
                 modifier = Modifier.size(width = 200.dp, height = 48.dp)
             ) {
@@ -54,7 +54,7 @@ fun MenuScreen(modifier: Modifier = Modifier, navController: NavController) {
             }
             Spacer(modifier = Modifier.height(16.dp))
             Button(
-                onClick = { navController.navigate("pedidos") },
+                onClick = { navController.navigate("pedidos?cliente=Cliente XPTO") },
                 colors = ButtonDefaults.buttonColors(Color.White),
                 modifier = Modifier.size(width = 200.dp, height = 48.dp)
             ) {
